@@ -6,10 +6,12 @@ on:
       - main
       - sparsh-dev
       - tejas-dev
+      - dev-*
   pull_request:
     branches:
-      - sparsh-dev
-      - tejas-dev
+      - sparsh-dev-*
+      - tejas-dev-*
+      - dev-*
       - main
 
 
